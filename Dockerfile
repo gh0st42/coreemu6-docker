@@ -15,6 +15,7 @@ RUN apt-get update \
     tmux \
     iperf \
     git \
+    binutils \
     && apt-get clean
 
 # CORE dependencies
